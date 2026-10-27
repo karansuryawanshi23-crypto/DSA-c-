@@ -8,6 +8,9 @@ int f(int n){
     int secondLast=f(n-2);
     return last + secondLast;
 }
+//print all subsequesnces 
+// [3,1,2] == ( , 3,1,2,31,12,312,32)
+
 
 int main() {
     int n=4;
